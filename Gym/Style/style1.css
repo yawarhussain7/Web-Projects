@@ -1,0 +1,48 @@
+
+
+
+/* container  */
+.container{
+    border: 2px solid blue;
+    margin: 49px 52px;
+    width: 40%;
+    border-radius: 12px;
+    padding: 21px 44px;
+    font-family:  sans-serif;
+}
+.container h1{
+color:  rgb(5 114 250);
+text-align: center;
+}
+/* forms  */
+.f-btn{
+    padding: 6px 10px;
+    background: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+    width: 60%;
+    
+}
+.f-btn:focus{
+    font-size: 100%;
+    color: white;
+    width: 66%;
+}
+form input {
+    display: block;
+    margin: auto;
+}
+form button{
+    display: block;
+    width: 55%;
+   
+    margin: 4px auto;
+}
+.f-btn:hover{
+
+    background-color: rgba(41, 131, 240, 0.76);
+    color: white;
+    cursor: pointer;
+}
